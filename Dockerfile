@@ -3,7 +3,7 @@ MAINTAINER "Scott Collier" <scollier@redhat.com>
 
 RUN yum -y update; yum clean all
 RUN yum -y install httpd; yum clean all
-RUN echo "Apache" >> /var/www/html/index.html
+RUN echo "Apache-quay" >> /var/www/html/index.html
 
 EXPOSE 80
 
